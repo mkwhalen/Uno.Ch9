@@ -149,6 +149,9 @@ Please try again</value>
 	<data name="MainPage_ErrorStateButtonLabel.Content" xml:space="preserve">
     <value>Try Again</value>
   </data>
+	<data name="MainPage_CurrentlyPlaying.Text" xml:space="preserve">
+		<value>Currently Playing</value>
+  </data>
 	<data name="PostPage_CommandBar_Title.Content" xml:space="preserve">
     <value>Post</value>
   </data>

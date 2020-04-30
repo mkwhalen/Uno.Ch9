@@ -41,6 +41,8 @@
 									   Style="{StaticResource Typo04}"
 									   Margin="12,7" />
 						</Border>
+						
+
 					</Grid>
 
 					<!-- Post Info -->
@@ -225,6 +227,7 @@
 				<ListView x:Name="PostList"
 						  ItemsSource="{Binding Posts.Result}"
 						  ItemTemplate="{StaticResource PostItemTemplate}"
+						  SelectedItem="{Binding SelectedPost}"
 						  ItemClick="OnPostItemClick"
 						  IsItemClickEnabled="True"
 						  Padding="0,0,0,54" />
